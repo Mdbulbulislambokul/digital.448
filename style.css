@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav section style start */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.item-container ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+}
+.item-container ul li a{
+    text-decoration: none;
+}
+.logo a{
+    text-decoration: none;
+}
+/* nav bar section end  */
