@@ -1,23 +1,152 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body{
+    margin: 0;
+    padding: 0;
 }
-
-/* nav section style start */
-.nav-container{
+nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgb(201, 201, 201);
 }
-.item-container ul{
+.menus-container{
     display: flex;
     list-style: none;
-    text-decoration: none;
-    gap: 10px;
+    margin-left: 1000px;
 }
-.item-container ul li a{
-    text-decoration: none;
+.items{
+    padding: 7px;
 }
-.logo a{
-    text-decoration: none;
+.banner-contaioner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./drone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -250px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   text-align: center;
+  
+ 
 }
-/* nav bar section end  */
+.btn{
+    padding: 15px 30px;
+    border: none;
+
+}
+.btn-disco{
+    background-color: red;
+}
+.button-container{
+    margin-top:570px;
+   margin-left: -850px;
+}
+.banner-contaioner{
+    
+} 
+.Digital{
+    color: red;
+}
+.Service-container{
+   padding: 20px;
+   height: 100vh;
+   width: 400px;
+    background-color: azure;
+}
+.author-contaioner{
+    display: flex;
+    align-items: center;
+} 
+.author-profile{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.profile-img{
+    width: 60px;
+    height: 70px;
+    border-radius: 70px;
+  margin-right: 20px;
+}
+.box-img{
+    width: 110px;
+   
+}
+.box-contaioner{
+    display: flex;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+text-align: center;
+box-shadow: 4px 8px 16px gray;
+border-radius: 5px;
+}
+.box-contaioner{
+   margin-right: -500px;
+   margin: 1100px;
+   margin-top: -200px;
+   
+}
+.box-contaioner{
+    display: flex;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+text-align: center;
+box-shadow: 4px 8px 16px gray;
+border-radius: 5px;
+}
+.box-contaioner{
+   margin-right: -500px;
+   margin: 1100px;
+   margin-top: -200px;
+   background-repeat: no-repeat;
+} 
+.icon{
+    width: 60px;
+   
+}
+.call-icon{
+    display: flex;
+    margin: -1200px;
+    margin-top: 400px;
+}
+.call-icon{
+   background-color: red;
+   padding: 30px;
+   border-radius: 10px;
+   align-items: center;
+  width: 1400px;
+    
+   
+} 
+.call-icon{
+    margin: -1400px;
+    margin-top: 250px;
+}
+.my{
+    color: white;
+}
+.title{
+    margin: 100px;
+    margin-top: 300px;
+    margin-right: 200px;
+}
+.Agency{
+  text-align: center;
+  display: flex;
+}
+.footer-content{
+   color: rgba(0, 0, 0, 0.966);
+}
+
+
+
